@@ -1,86 +1,52 @@
 let room = 80;
-let home = 'Bogor'
-
-
+let home = "Bogor";
 
 // Update value Data type
 
-let box = 'Snack'
+let box = "Snack";
 box = 50;
-console.log(box)
+console.log(box);
 
 let number = 50;
 let float = 20.5;
-let bignumber = Infinity; 
+let bignumber = Infinity;
 
-console.log(number)
-console.log(float)
+console.log(number);
+console.log(float);
 
-
-
-console.log(1/0);
+console.log(1 / 0);
 console.log(bignumber);
 
-
-
-
-
-
-
-
-
-//!   Big int 
-
-
+//!   Big int
 
 let bignum = 2578754375876382752564585643573n;
-console.log(bignum)
-
-
-
+console.log(bignum);
 
 // !  String
 
-let adress = "bogor"
-// let name = 'midut'   
+let adress = "bogor";
 
-let firstname = "badut"
-
+let firstname = "badut";
 
 let lastname = `rafka ${adress}`;
 
-console.log (lastname)
-
+console.log(lastname);
 
 let fullname = `${firstname} ${lastname}  $ {1 + 2}`;
-console.log(fullname)
-
-
-
-
-
+console.log(fullname);
 
 // ! boleean (Logika)
-
-
 
 let isMarried = false;
 let isAgree = true;
 
+console.log(isMarried);
+console.log(isAgree);
 
-console.log(isMarried)
-console.log(isAgree)
-
-
-
-
-
-
-let isTrue =  1;
+let isTrue = 1;
 let isFalse = 2;
 
-console.log(isTrue)
-console.log(isFalse)
+console.log(isTrue);
+console.log(isFalse);
 
-
-console.log (14 > 1)
+console.log(14 > 1);
