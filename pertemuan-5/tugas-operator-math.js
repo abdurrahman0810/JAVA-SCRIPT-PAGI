@@ -69,12 +69,16 @@ console.log(hasilNyamukAngsa);
 // Penjelasan Yang kedua angsa benilai numerik karena tidak di beri tanda petik seperti variable nyamuk dan belalang maka yang terjadi adalah penjumlahan bukan pertambahan dari variable
 
 // ** soal Four
+let BukuFiksi = 5000;
+let BukuNonFiksi  = 7000;
+let Pulpen = 2000;
+let BukufiksiaishaTotal = BukuFiksi + BukuFiksi + BukuFiksi
+let BukuNonFiksiTotal = BukuNonFiksi + BukuNonFiksi + BukuNonFiksi + BukuNonFiksi + BukuNonFiksi;
+let PenaAishaTotal = Pulpen + Pulpen;
 
-let Bukufiksiaisha = 25.0;
-let BukuNonFiksi = 21.0;
-let PenaAisha = 4.0;
+// let UpdateBelanjaAisha 
 
-let TotalBelanjaAisha = BukuNonFiksi + Bukufiksiaisha + PenaAisha;
+let TotalBelanjaAisha = BukuNonFiksiTotal + BukufiksiaishaTotal + PenaAishaTotal;
 
 console.log(TotalBelanjaAisha);
 
@@ -142,7 +146,7 @@ let age = 18;
 let shoesNumber = "42";
 let Married = false;
 
-console.log(typeof +Room);
-console.log(typeof +age);
-console.log(typeof +shoesNumber);
-console.log(typeof +Married);
+console.log(typeof Room);
+console.log(typeof age);
+console.log(typeof shoesNumber);
+console.log(typeof Married);
