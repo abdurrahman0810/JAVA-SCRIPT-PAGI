@@ -35,14 +35,14 @@
 
 let permenAna = 30;
 let yangDikasihkebudi = 10;
-let permenBaru = 20 **  2;
+let permenBaru = 20 ** 2;
 let updatePermen = permenBaru - yangDikasihkebudi;
 
 // let jumlahpermenanasekarang = 80
 // let permenkuadrat = 4 ** 2;
 
 console.log(permenAna - yangDikasihkebudi + permenBaru);
-console.log(updatePermen + permenBaru );
+console.log(updatePermen + permenBaru);
 
 // ** Soal two
 
@@ -70,15 +70,17 @@ console.log(hasilNyamukAngsa);
 
 // ** soal Four
 let BukuFiksi = 5000;
-let BukuNonFiksi  = 7000;
+let BukuNonFiksi = 7000;
 let Pulpen = 2000;
-let BukufiksiaishaTotal = BukuFiksi + BukuFiksi + BukuFiksi
-let BukuNonFiksiTotal = BukuNonFiksi + BukuNonFiksi + BukuNonFiksi + BukuNonFiksi + BukuNonFiksi;
+let BukufiksiaishaTotal = BukuFiksi + BukuFiksi + BukuFiksi;
+let BukuNonFiksiTotal =
+  BukuNonFiksi + BukuNonFiksi + BukuNonFiksi + BukuNonFiksi + BukuNonFiksi;
 let PenaAishaTotal = Pulpen + Pulpen;
 
-// let UpdateBelanjaAisha 
+// let UpdateBelanjaAisha
 
-let TotalBelanjaAisha = BukuNonFiksiTotal + BukufiksiaishaTotal + PenaAishaTotal;
+let TotalBelanjaAisha =
+  BukuNonFiksiTotal + BukufiksiaishaTotal + PenaAishaTotal;
 
 console.log(TotalBelanjaAisha);
 
@@ -150,3 +152,41 @@ console.log(typeof Room);
 console.log(typeof age);
 console.log(typeof shoesNumber);
 console.log(typeof Married);
+
+// !! LATIHAN PERTAMA
+
+let OneKgApel = 10000;
+let OneKgJeruk = 12000;
+let Susu = 15000;
+let ApelYangDibeli = OneKgApel + OneKgApel + OneKgApel + OneKgApel;
+let JerukYangDiBeli = OneKgJeruk + OneKgJeruk;
+let SusuYangDiBeli = Susu;
+let TotalYangHarusDibayar = ApelYangDibeli + JerukYangDiBeli + SusuYangDiBeli;
+
+console.log("Total Semua Biaya Yang Harus Dibayar Budi " + TotalYangHarusDibayar);
+
+// !!  LATIHAN KE DUA
+
+let KelerengRina = 50;
+let KelerengYangDiBeriRina = 20;
+let TotalKelerengRina = KelerengRina - KelerengYangDiBeriRina;
+let KelerengKuadrat = TotalKelerengRina ** 2;
+
+
+console.log(TotalKelerengRina);
+console.log(KelerengKuadrat);
+
+
+
+let adi,raman,sman;
+adi = 10;
+sman = adi + 20;
+
+console.log(sman);
+
+
+
+
+
+
+
