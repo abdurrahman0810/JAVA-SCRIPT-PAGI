@@ -19,13 +19,9 @@
     <input type="text" id="userGender" placeholder="Masukkan jenis kelamin" />
     <button
       id="showBtn"
-      onclick="
-        let Gender = document.getElementById('userGender');
-        let Isi = document.getElementById('showBtn');
-        let Hasil = document.getElementById('resultBox');
-        console.log(Gender.value);
-
-        Hasil.innerText = 'Jenis Kelamin' + Gender;
+      onclick="document.getElementById('resultBox').textContent=
+      document.getElementById('userGender').value
+       
       "
     >
       Tampilkan
