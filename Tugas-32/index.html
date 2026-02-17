@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas-32 Manipulasi DOM</title>
+  </head>
+  <body>
+    <div id="welcomeBox">Selamat datang...</div>
+    <span id="studentName">Nama belum diisi</span>
+    <hr />
+
+    <div id="noteArea"></div>
+
+    <hr />
+
+    <div id="resultBox"></div>
+
+    <input type="text" id="userGender" placeholder="Masukkan jenis kelamin" />
+    <button
+      id="showBtn"
+      onclick="
+        let Gender = document.getElementById('userGender');
+        let Isi = document.getElementById('showBtn');
+        let Hasil = document.getElementById('resultBox');
+        console.log(Gender.value);
+
+        Hasil.innerText = 'Jenis Kelamin' + Gender;
+      "
+    >
+      Tampilkan
+    </button>
+
+    <hr />
+
+    <input type="text" id="contactNumber" value="Nomor belum diisi" />
+
+    <hr />
+    <div id="articleContainer"></div>
+    <button
+      id="addParagraphBtn"
+      onclick="
+        let Paragraf = document.createElement('p');
+        Paragraf.innerText = 'Paragraf Baru';
+        // console.log(Paragraf);
+
+        let article = document.getElementById('articleContainer');
+        article.appendChild(Paragraf);
+      "
+    >
+      Tambah Paragraf
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
