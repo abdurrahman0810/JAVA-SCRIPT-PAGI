@@ -1,6 +1,6 @@
 let Ips = 81;
 let Ipa = 91;
-
+let
 if (Ipa >= 91 && Ips >= 91) {
   console.log("andi lulus");
 } else {
