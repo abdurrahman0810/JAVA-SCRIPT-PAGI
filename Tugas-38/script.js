@@ -5,7 +5,7 @@ let jeruk = "jeruk ada"
 
 
 console.log(apel || mangga || jeruk);  
-// hasilnya  "jeruk ada"
+// hasilnya  'jeruk ada'
 
 
 // 2

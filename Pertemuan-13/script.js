@@ -16,7 +16,7 @@ if (age <= 18 && nilailulus >= 90 && hassertificate) {
   console.log("Bisa Daftar UIM");
 } else {
   console.log("Tidak bisa UIM");
-}
+}ny
 
 // OR — jika salah satu true, hasilnya true
 let abdurrahman = 86;
